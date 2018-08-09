@@ -1,0 +1,11 @@
+[lib]
+name = "tbin"
+path = "src/tbin.rs"
+crate-type = ["cdylib"]
+
+[package]
+name = "tbin"
+version = "0.1.0"
+
+[dependencies]
+tlib = { path = "../tlib" }

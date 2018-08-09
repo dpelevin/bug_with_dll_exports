@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "tlib",
+    "tbin"
+]
+
+[profile.release]
+lto = true
